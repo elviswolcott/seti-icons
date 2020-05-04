@@ -4,5 +4,3 @@ git clone https://github.com/jesseweed/seti-ui.git
 npm run build:scripts
 # build definitions
 npm run extract
-# compile the typescript
-npm run build

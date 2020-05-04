@@ -5,13 +5,13 @@ os: linux
 jobs:
   include:
     - stage: test
-      script: npm test
+      script: bash build/setup.sh && npm test
     - stage: lint
-      script: npm run lint
+      script: bash build/setup.sh && npm run lint
     - stage: release
       if: type = push AND tag IS present
       install: npm ci
-      script: bash ./build/build.sh
+      script: bash build/setup.sh && npm run build
       deploy:
         provider: npm
         skip_cleanup: true
