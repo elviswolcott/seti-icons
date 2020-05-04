@@ -1,4 +1,4 @@
-[![Travis (.com)](https://img.shields.io/travis/com/elviswolcott/seti-ui?logo=travis)](https://travis-ci.com/elviswolcott/seti-ui)
+[![Travis (.com)](https://img.shields.io/travis/com/elviswolcott/seti-icons?logo=travis)](https://travis-ci.com/elviswolcott/seti-icons)
 [![npm](https://img.shields.io/npm/v/seti-icons?label=seti-icons&logo=npm)](https://www.npmjs.com/package/seti-icons)
 # seti-icons
 

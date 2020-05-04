@@ -23,15 +23,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/elviswolcott/seti-ui.git"
+    "url": "git+https://github.com/elviswolcott/seti-icons.git"
   },
   "keywords": [],
   "author": "Elvis Wolcott",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/elviswolcoott/seti-ui.git"
+    "url": "https://github.com/elviswolcoott/seti-icons.git"
   },
-  "homepage": "https://github.com/elviswolcott/set-ui#readme",
+  "homepage": "https://github.com/elviswolcott/set-icons#readme",
   "devDependencies": {
     "@types/jest": "^25.1.0",
     "@types/node": "^13.13.4",
