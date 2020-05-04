@@ -11,7 +11,7 @@ jobs:
     - stage: release
       if: type = push AND tag IS present
       install: npm ci
-      script: npm run build
+      script: bash ./build/build.sh
       deploy:
         provider: npm
         skip_cleanup: true
