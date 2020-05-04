@@ -4,3 +4,8 @@ node_modules
 .vscode
 # generated code
 /lib
+src/*.json
+# generated build scripts
+build/*.js
+# seti-ui repo
+/seti-ui
