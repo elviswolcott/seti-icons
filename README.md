@@ -1,8 +1,11 @@
-[![Travis (.com)](https://img.shields.io/travis/com/<user>/<repo>?logo=travis)](https://travis-ci.com/<user>/<repo>)
-[![npm](https://img.shields.io/npm/v/<package>?label=<package>&logo=npm)](https://www.npmjs.com/package/<package>)
-# <package-name>
+[![Travis (.com)](https://img.shields.io/travis/com/elviswolcott/seti-ui?logo=travis)](https://travis-ci.com/elviswolcott/seti-ui)
+[![npm](https://img.shields.io/npm/v/seti-icons?label=seti-icons&logo=npm)](https://www.npmjs.com/package/seti-icons)
+# seti-icons
 
-> tagline
+> File icons from Seti-UI
+
+All of the icons come from [jesseweed/seti-ui](https://github.com/jesseweed/seti-ui). 
+This repo just packages them up so you can use them with `npm install`.
 
 ## Available Scripts
 
@@ -30,8 +33,5 @@ Travis is configured to run deploys on tags.
 
 ## Initial Setup
 
-1. Edit `README.md` so the badges point to your repository
 1. Edit `.travis.yml` so the repository and npm credentials match your project
     * Encrypting your NPM token requires the Travis CLI
-1. Edit `package.json` so that the package name, author, and repository match your project
-1. Disable `build config validation` in the Travis CI settings for the repository

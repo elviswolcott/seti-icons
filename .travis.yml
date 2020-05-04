@@ -15,12 +15,12 @@ jobs:
       deploy:
         provider: npm
         skip_cleanup: true
-        email: <npm-email>
+        email: elviswolcott@gmail.com
         api_key:
-          secure: <get-from-travis-encrypt>
+          secure: "EhvYzN0+//Q1lRJ6KHD+nrwLC61ci/4TcWJoYn8AvTkV7iST8rxZ8tEMBgzf7gEapzu2PvsUq3VlyN4KymTEJQqr1Jicq+1tRegTA9Mzqu0TFPhjBfbymOiLYlTQbw9iNz4sBEhBvp0kCvz8F3Q+3gaeJNq2wR/RLhZNzc19n+ECI0JJVbyGj5EcRA6+RXvAhWgGXKAMHsX9XK+7GtgZBoLmXmJj83q+UCm8L0d5IdxLq1InCZ9CW1nocUQPLv52s0nAEtyAJH5Z0LiUWBoJgoYHf+wfiZHIkyLLpBjTOnaSXEX7LcygIo8t2itYO/bOcNXwospe9W4kU5b91DgunmezYWyWpuT/CUWd5wpJUwPaE0v42Fts0lNBAqVZ00w4IxwWHXZIGohUm72rAYGAljQpF3eNTQxDt2O3JeRCzrYD76kqaRQaBDm7sCCkTY6IyQLvfLjNhW1zhn05ccQG5sqe1rkBaQB/17jhFBWTAHyiDDxOF9968fj1Ip2Jt2MaXvLZqZ9LVNKjnfNDJ/LDohkqjh8WMLkqbwR6tBlvHJwEJbFTpUqFo7ZDWn2N6yGCPEYEMDPv4oT7IqV3vilW1vNsxDCOZuS/4QI4aDBgNmdnejQDqXD6FFvvC5FsV/xhZxf2PphRk/VDAL/9B6RGIqpqIjGx1qSPotphnZfJeUI="
         on:
           tags: true
-          repo: <username>/<project>
+          repo: elviswolcott/seti-icons
           branch: master
 stages:
   - test
