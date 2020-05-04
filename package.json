@@ -1,6 +1,6 @@
 {
   "name": "seti-icons",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "File icons from Seti-UI",
   "main": "lib/index.js",
   "scripts": {
